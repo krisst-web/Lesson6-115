@@ -1,0 +1,48 @@
+.background{
+	width: 100%;
+	position: relative;
+}
+.cloud1{
+	position: absolute;
+	left: 50px;
+	top: 800px;
+	width: 900px;
+	animation: cloud1 20s infinite;
+}
+@keyframes cloud1{
+	from{left: 50px;}
+	to {left:5000px;}
+}
+.cloud2{
+	position: absolute;
+	left: 50px;
+	top: 100px;
+	width: 700px;
+	animation: cloud2 20s infinite;
+}
+@keyframes cloud2{
+	from{left: 50px;}
+	to{left: 5000px;}
+}
+.car{
+	position: absolute;
+	left: 0;
+	bottom:100px;
+	width: 700px;
+	animation: car 15s infinite;
+}
+@keyframes car{
+	from{left: 0;}
+	to{left: 5000px;}
+}
+.plane{
+	position: absolute;
+	right: 0;
+	width: 700px;
+	top: 500px;
+	animation: plane 20s infinite ;
+}
+@keyframes plane{
+	from{right: 0;}
+	to{right: 6000px;}
+}
